@@ -90,11 +90,17 @@ block7.appendChild(recipe7);
 block8.appendChild(recipe8);
 
 const recipeNames = ["Coconut Lime Chicken Recipe", "Parmesan Espresso Martin Steak Recipe", "Crockpot Macaroni and Cheese Recipe", "Tuscan Butter Shrimp Recipe", "Pork Chile Verde Recipe", "Lemon Asparagus and Chicken Pasta Recipe", "Creamy Chicken Fajita Pasta Recipe", "Zucchini and Asparagus Orzo Risotto Recipe"];
-for (let j = 0; j < 8; j++)
-{
-    const recipeName = document.createElement('h3');
-    
-}
+
+recipeNames.forEach((recipeName, index) => {
+
+    const foodName = document.createElement('h3');
+    foodName.classList.add('recipe-name');
+    foodName.textContent = recipeName;
+
+    const recipe = document.querySelector(`.recipe-${index + 1}`);
+
+    recipe.appendChild(foodName);
+});
 
 document.addEventListener("DOMContentLoaded", function() {
     const parents = document.querySelectorAll('.recipes');
