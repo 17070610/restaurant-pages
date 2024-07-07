@@ -88,3 +88,21 @@ block5.appendChild(recipe5);
 block6.appendChild(recipe6);
 block7.appendChild(recipe7);
 block8.appendChild(recipe8);
+
+const recipeNames = ["Coconut Lime Chicken Recipe", "Parmesan Espresso Martin Steak Recipe", "Crockpot Macaroni and Cheese Recipe", "Tuscan Butter Shrimp Recipe", "Pork Chile Verde Recipe", "Lemon Asparagus and Chicken Pasta Recipe", "Creamy Chicken Fajita Pasta Recipe", "Zucchini and Asparagus Orzo Risotto Recipe"];
+for (let j = 0; j < 8; j++)
+{
+    const recipeName = document.createElement('h3');
+    
+}
+
+const orderSection = document.createElement('div');
+orderSection.classList.add('order-section');
+
+const orderButton = document.createElement('button');
+orderButton.classList.add('order-button');
+orderButton.textContent = "Order";
+
+orderSection.appendChild(orderButton);
+
+block1.appendChild(orderSection);
