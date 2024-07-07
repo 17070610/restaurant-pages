@@ -96,13 +96,19 @@ for (let j = 0; j < 8; j++)
     
 }
 
-const orderSection = document.createElement('div');
-orderSection.classList.add('order-section');
+document.addEventListener("DOMContentLoaded", function() {
+    const parents = document.querySelectorAll('.recipes');
 
-const orderButton = document.createElement('button');
-orderButton.classList.add('order-button');
-orderButton.textContent = "Order";
+    parents.forEach(parent => {
+        const orderSection = document.createElement('div');
+        orderSection.classList.add('order-section');
 
-orderSection.appendChild(orderButton);
+        const orderButton = document.createElement('button');
+        orderButton.classList.add('order-button');
+        orderButton.textContent = "Order";
 
-block1.appendChild(orderSection);
+        orderSection.appendChild(orderButton);
+
+        parent.appendChild(orderSection);
+    });
+});
