@@ -22,6 +22,15 @@ const homeDescription = document.createElement('p');
 homeDescription.classList.add('restaurant-description');
 homeDescription.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
+const menuHeadingSection = document.createElement('div');
+menuHeadingSection.classList.add('menu-heading-section');
+
+const menuHeading = document.createElement('h2');
+menuHeading.classList.add('menu-heading');
+menuHeading.textContent = "MENU";
+
+menuHeadingSection.appendChild(menuHeading);
+
 const menu = document.createElement('div');
 menu.classList.add('menu');
 
@@ -37,6 +46,7 @@ for (let i = 0; i < 8; i++)
 home.appendChild(homeHead);
 home.appendChild(homeDescription);
 content.appendChild(home);
+content.appendChild(menuHeadingSection);
 content.appendChild(menu);
 
 const block1 = document.querySelector('.recipe-1');

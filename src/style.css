@@ -88,7 +88,6 @@ nav button:hover {
 
 .recipes {
     position: relative;
-    border: 2px solid black;
     height: 250px;
     background-color: rgb(0, 28, 57);
 }
@@ -160,5 +159,44 @@ nav button:hover {
 }
 
 .recipe-8 .image {
-    margin-bottom: 4px;
+    margin-bottom: 0;
+}
+
+.table-offers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 290px));
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.offers {
+    position: relative;
+    border: 2px solid black;
+    height: 250px;
+    background-color: rgb(0, 28, 57);
+}
+
+.menu-heading-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.menu-heading-section::before,
+.menu-heading-section::after {
+    content: '';
+    flex-grow: 1;
+    height: 1px;
+    background-color: rgb(0, 28, 57);
+    margin: 0 10px;
+}
+
+.menu-heading {
+    white-space: nowrap;
+    margin: 0;
+    font-family: fame-headers;
+    color: rgb(0, 28, 57);
 }
