@@ -1,0 +1,35 @@
+.order-section {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    overflow: hidden;
+} 
+
+.recipes:hover .order-section {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 28, 57, 0.5);
+}
+
+.order-button {
+    border-right: none;
+    font-size: 24px;
+    background-color: rgb(0, 28, 57);
+    margin: 60px;
+    border-radius: 15px;
+}
+
+.order-button:hover {
+    background-color: aliceblue;
+    color: rgb(0, 28, 57);
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+.order-button:active {
+    transform: scale(0.95);
+}

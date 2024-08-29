@@ -1,0 +1,26 @@
+.recipe-name {
+    color:aliceblue;
+    margin: 5px;
+    font-family: fame-regular;
+    font-size: 18px;
+    text-align: center;
+}
+
+.recipe-7 .recipe-name {
+    font-size: 15px;
+}
+
+.recipe-3 .recipe-name
+ {
+    font-size: 14px;
+}
+
+.recipe-2 .recipe-name,
+.recipe-8 .recipe-name {
+    font-size: 14px;
+    margin: 0;
+}
+
+.recipe-8 .image {
+    margin-bottom: 0;
+}

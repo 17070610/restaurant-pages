@@ -27,7 +27,7 @@ nav {
     height: auto;
     display: flex;
     background-color: rgb(0, 28, 57);
-    padding: 15px;
+    padding: 15px 0;
     box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.7)
 }
 
@@ -63,105 +63,6 @@ nav button:hover {
     font-weight: bolder;
 }
 
-.home {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    background-image: url(./background1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    color: aliceblue;
-    margin-bottom: 50px;
-}
-
-.menu {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 290px));
-    gap: 10px;
-    padding: 20px;
-    justify-content: center;
-}
-
-.recipes {
-    position: relative;
-    height: 250px;
-    background-color: rgb(0, 28, 57);
-}
-
-.image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 8px;
-}
-
-.order-section {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    left: 0;
-    display: none;
-    justify-content: center;
-    overflow: hidden;
-} 
-
-.recipes:hover .order-section {
-    display: flex;
-    align-items: center;
-    background-color: rgba(0, 28, 57, 0.5);
-}
-
-.order-button {
-    border-right: none;
-    font-size: 24px;
-    background-color: rgb(0, 28, 57);
-    margin: 60px;
-    border-radius: 15px;
-}
-
-.order-button:hover {
-    background-color: aliceblue;
-    color: rgb(0, 28, 57);
-    transform: scale(1.05);
-    font-weight: bold;
-}
-
-.order-button:active {
-    transform: scale(0.95);
-}
-
-.recipe-name {
-    color:aliceblue;
-    margin: 5px;
-    font-family: fame-regular;
-    font-size: 18px;
-    text-align: center;
-}
-
-.recipe-7 .recipe-name {
-    font-size: 15px;
-}
-
-.recipe-3 .recipe-name
- {
-    font-size: 14px;
-}
-
-.recipe-2 .recipe-name,
-.recipe-8 .recipe-name {
-    font-size: 14px;
-    margin: 0;
-}
-
-.recipe-8 .image {
-    margin-bottom: 0;
-}
-
 .table-offers {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 290px));
@@ -175,28 +76,4 @@ nav button:hover {
     border: 2px solid black;
     height: 250px;
     background-color: rgb(0, 28, 57);
-}
-
-.menu-heading-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: 20px 0;
-}
-
-.menu-heading-section::before,
-.menu-heading-section::after {
-    content: '';
-    flex-grow: 1;
-    height: 1px;
-    background-color: rgb(0, 28, 57);
-    margin: 0 10px;
-}
-
-.menu-heading {
-    white-space: nowrap;
-    margin: 0;
-    font-family: fame-headers;
-    color: rgb(0, 28, 57);
 }
