@@ -1,5 +1,5 @@
-import './orderButtonStyles.css';
-import { menu } from "./createMenu.js";
+import '../styles/orderButtonStyles.css';
+import { menu } from './createMenu.js';
 
 const parents = document.querySelectorAll('.recipes');
 

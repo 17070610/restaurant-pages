@@ -1,4 +1,4 @@
-import "./menuHeadingStyles.css";
+import "../styles/menuHeadingStyles.css";
 import content from "./getContent.js";
 import headingSection from "./getHeadingMenuSection.js";
 

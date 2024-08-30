@@ -1,13 +1,13 @@
-import './recipeImagesStyles.css';
+import '../styles/recipeImagesStyles.css';
 import { menu } from "./createMenu.js";
-import Recipe1 from './image1.webp';
-import Recipe2 from './image2.webp';
-import Recipe3 from './image3.webp';
-import Recipe4 from './image4.webp';
-import Recipe5 from './image5.webp';
-import Recipe6 from './image6.webp';
-import Recipe7 from './image7.webp';
-import Recipe8 from './image8.webp';
+import Recipe1 from '../assets/image1.webp';
+import Recipe2 from '../assets/image2.webp';
+import Recipe3 from '../assets/image3.webp';
+import Recipe4 from '../assets/image4.webp';
+import Recipe5 from '../assets/image5.webp';
+import Recipe6 from '../assets/image6.webp';
+import Recipe7 from '../assets/image7.webp';
+import Recipe8 from '../assets/image8.webp';
 
 const blocks = [];
 const recipe = [];

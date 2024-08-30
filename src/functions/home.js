@@ -1,4 +1,4 @@
-import './homeStyles.css'
+import '../styles/homeStyles.css'
 import content from "./getContent.js";
 
 

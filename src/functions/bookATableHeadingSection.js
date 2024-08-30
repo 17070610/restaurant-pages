@@ -1,4 +1,4 @@
-import './bookATableHeadingSectionStyles.css';
+import '../styles/bookATableHeadingSectionStyles.css';
 import content from "./getContent.js";
 
 const bookATableHeaderSection = document.createElement('div');

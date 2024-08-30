@@ -1,4 +1,4 @@
-import './recipeNamesStyles.css';
+import '../styles/recipeNamesStyles.css';
 import { menu } from "./createMenu.js";
 
 const recipeNames = ["Coconut Lime Chicken Recipe", "Parmesan Espresso Martin Steak Recipe", "Crockpot Macaroni and Cheese Recipe", "Tuscan Butter Shrimp Recipe", "Pork Chile Verde Recipe", "Lemon Asparagus and Chicken Pasta Recipe", "Creamy Chicken Fajita Pasta Recipe", "Zucchini and Asparagus Orzo Risotto Recipe"];

@@ -1,4 +1,4 @@
-import './menuStyles.css';
+import '../styles/menuStyles.css';
 import content from "./getContent.js";
 
 const menu = document.createElement('div');
