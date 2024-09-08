@@ -1,5 +1,5 @@
 import '../styles/menuStyles.css';
-import content from "./getContent.js";
+import { menuBlock } from './menuBlock';
 
 const menu = document.createElement('div');
 menu.classList.add('menu');
@@ -13,6 +13,6 @@ for (let i = 0; i < 8; i++)
     menu.appendChild(recipes);
 }
 
-content.appendChild(menu);
+menuBlock.appendChild(menu);
 
-export { menu };
+export { menuBlock };

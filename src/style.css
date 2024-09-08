@@ -14,10 +14,11 @@
     font-style: normal;
 }
 
-body {
+html, body {
     font-family: fame-regular;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 nav {
@@ -29,6 +30,10 @@ nav {
     background-color: rgb(0, 28, 57);
     padding: 15px 0;
     box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.7)
+}
+
+.nav-menu {
+    position: relative;
 }
 
 button {

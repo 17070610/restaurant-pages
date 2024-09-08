@@ -1,5 +1,5 @@
 import '../styles/orderButtonStyles.css';
-import { menu } from './createMenu.js';
+import { menuBlock } from './addRecipeNames.js';
 
 const parents = document.querySelectorAll('.recipes');
 
@@ -19,4 +19,4 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-export { parents };
+export { menuBlock };

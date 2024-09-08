@@ -1,12 +1,13 @@
 import "../styles/menuHeadingStyles.css";
-import content from "./getContent.js";
 import headingSection from "./getHeadingMenuSection.js";
+import { menuBlock } from "./menuBlock.js";
+
 
 const menuHeading = document.createElement('h2');
 menuHeading.classList.add('menu-heading');
 menuHeading.textContent = "MENU";
 
 headingSection.appendChild(menuHeading);
-content.appendChild(headingSection);
+menuBlock.appendChild(headingSection);
 
-export { menuHeading };
+export { menuBlock };
